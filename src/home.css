@@ -1,0 +1,121 @@
+/* General Styles */
+body {
+    background-color: #f7fafc;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Home Component Container */
+  .home-container {
+    background-color: #f7fafc;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin :20px;
+    padding: 20px 20px;
+  }
+  
+  .inner-container {
+    width: 80%;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+  }
+  
+  /* Slider Content */
+  .slide-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .slide-content {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+  
+  /* Image Container */
+  .slide-image {
+    width: 100%;
+    padding: 16px;
+  }
+  
+  .slide-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .slide-image {
+      width: 100%;
+    }
+  }
+  
+  /* Text Container */
+  .slide-text {
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .slide-text {
+      width: 100%;
+      text-align: left;
+    }
+  }
+  
+  .slide-title {
+    color: #2d3748;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .slide-description {
+    color: #718096;
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .button-primary {
+    background-color: #4299e1;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button-primary:hover {
+    background-color: #3182ce;
+  }
+  
+  /* Slick Slider Customizations */
+  .slick-slider {
+    position: relative;
+  }
+  
+  .slick-dots {
+    bottom: -30px;
+  }
+  
+  .slick-prev, .slick-next {
+    z-index: 1;
+    background-color: #4299e1;
+    border-radius: 50%;
+    padding: 8px;
+    width: 36px;
+    height: 36px;
+  }
+  
+  .slick-prev:hover, .slick-next:hover {
+    background-color: #3182ce;
+  }
+  
