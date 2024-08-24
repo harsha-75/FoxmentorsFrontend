@@ -30,7 +30,7 @@ const Header = () => {
           /> Fox Mentors
         </Link>
         {/* Navigation Links */}
-        <nav className="flex space-x-8 text-gray-800 text-xl">
+        <nav className="flex space-x-8 text-gray-800">
           <ul className="flex space-x-8">
             <li className="flex items-center">
               <Link to="/practicehub" className="flex items-center hover:bg-gray-300 hover:text-gray-700 rounded-full p-3 transition ease-in-out duration-200">
