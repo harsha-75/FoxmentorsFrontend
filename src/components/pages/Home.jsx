@@ -55,7 +55,7 @@ function Home() {
     <div className="bg-gray-100 h-screen">
       <div className="container mx-auto py-10">
         {/* Hero Slider */}
-        <div className="bg-white rounded-lg shadow-lg p-6 mb-10">
+        <div className="bg-white rounded-lg shadow-lg p-6 mb-10 mb-5">
           <Slider {...sliderSettings}>
             {/* Slide 1 - Powered by Community */}
 
