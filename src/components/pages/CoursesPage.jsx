@@ -1,34 +1,32 @@
 import React from 'react';
-import webdevelopmentimage from '../../assets/webdevelopment.jpg';
-import digitalmarketing from '../../assets/digitalmarketing.avif';
-import datascience from '../../assets/datascience.jpg'
 function CoursesPage() {
-  const courses = [
-    {
-      id: 1,
-      title: "Full-Stack Web Development",
-      instructor: "John Doe",
-      description: "Learn to build full-stack web applications using modern technologies like React, Node.js, and MongoDB.",
-      price: "$199",
-      image: webdevelopmentimage,
-    },
-    {
-      id: 2,
-      title: "Data Science with Python",
-      instructor: "Jane Smith",
-      description: "Become proficient in data analysis and machine learning with Python, Pandas, and Scikit-Learn.",
-      price: "$249",
-      image: datascience,
-    },
-    {
-      id: 3,
-      title: "Digital Marketing",
-      instructor: "Tom Brown",
-      description: "Master digital marketing strategies, including SEO, SEM, and social media advertising.",
-      price: "$149",
-      image: digitalmarketing,
-    },
-  ];
+  const courses = []
+  // const courses = [
+  //   {
+  //     id: 1,
+  //     title: "Full-Stack Web Development",
+  //     instructor: "John Doe",
+  //     description: "Learn to build full-stack web applications using modern technologies like React, Node.js, and MongoDB.",
+  //     price: "$199",
+  //     image: webdevelopmentimage,
+  //   },
+  //   {
+  //     id: 2,
+  //     title: "Data Science with Python",
+  //     instructor: "Jane Smith",
+  //     description: "Become proficient in data analysis and machine learning with Python, Pandas, and Scikit-Learn.",
+  //     price: "$249",
+  //     image: datascience,
+  //   },
+  //   {
+  //     id: 3,
+  //     title: "Digital Marketing",
+  //     instructor: "Tom Brown",
+  //     description: "Master digital marketing strategies, including SEO, SEM, and social media advertising.",
+  //     price: "$149",
+  //     image: digitalmarketing,
+  //   },
+  // ];
 
   return (
     <div className=" py-10">

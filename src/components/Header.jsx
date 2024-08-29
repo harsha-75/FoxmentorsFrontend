@@ -33,7 +33,7 @@ const Header = () => {
             alt="Logo"
             className="h-12 w-12 rounded-full inline-block bg-white p-2 shadow-lg"
           /> 
-          <span className={`text-blue-500 text-3xl font-bold ml-3 ${logoTextColor}`}>Fox Mentors</span>
+          <span className={`text-blue-500 text-2xl font-bold ml-3 ${logoTextColor}`}> THE FOX MENTORS</span>
         </Link>
         {/* Navigation Links */}
         <nav className="flex space-x-8">
@@ -57,7 +57,7 @@ const Header = () => {
               </Link>
             </li>
             <li className="flex items-center">
-              <Link to="/about" className={`flex items-center hover:text-blue-500 rounded-full p-3 transition ease-in-out duration-200 ${pathMatch('/about')}`}>
+              <Link to="/signin" className={`flex items-center hover:text-blue-500 rounded-full p-3 transition ease-in-out duration-200 ${pathMatch('/about')}`}>
                 <FontAwesomeIcon icon={faUserAlt} className="mr-3 bg-white text-blue-500 p-2 rounded-full shadow-md" />
                 Profile
               </Link>
