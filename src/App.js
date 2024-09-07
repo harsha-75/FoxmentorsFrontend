@@ -8,6 +8,8 @@ import CoursesPage from './components/pages/CoursesPage';
 import PractiseHub from './components/pages/PractiseHub';
 import SignIn from './components/pages/SignIn';
 import SignUp from './components/pages/SignUp';
+import SignOut from './components/pages/SignOut';
+import Forget from './components/pages/Forget';
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
                    <Route path="/practicehub" element={<PractiseHub/>}/>
                    <Route path="/signin" element={<SignIn/>}/>
                    <Route path="/signup" element={<SignUp/>}/>
+                   <Route path="/signout" element={<SignOut/>}/>
+                   <Route path="/forget" element={<Forget/>}/>
               </Routes>
        </Router>
   );
