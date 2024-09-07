@@ -57,7 +57,7 @@ const Header = () => {
               </Link>
             </li>
             <li className="flex items-center">
-              <Link to="/signin" className={`flex items-center hover:text-blue-500 rounded-full p-3 transition ease-in-out duration-200 ${pathMatch('/about')}`}>
+              <Link to="/signup" className={`flex items-center hover:text-blue-500 rounded-full p-3 transition ease-in-out duration-200 ${pathMatch('/about')}`}>
                 <FontAwesomeIcon icon={faUserAlt} className="mr-3 bg-white text-blue-500 p-2 rounded-full shadow-md" />
                 Profile
               </Link>
